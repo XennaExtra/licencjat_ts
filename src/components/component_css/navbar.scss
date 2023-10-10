@@ -25,14 +25,18 @@ li{
   color: darkblue;
   border: 2px solid darkblue;
   border-radius: 7px;
+  transition-property: color, border-color;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
   padding: 0.5rem;
   margin-right: 1rem;
   position: relative;
 }
 li:hover{
-  color: #009cff;
-  text-shadow: #009cff;
-  border-color: #009cff;
+  color: orangered;
+  text-shadow: orangered;
+  border-color: orangered;
+  cursor: pointer;
 }
 
   .navLoginList{

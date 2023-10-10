@@ -1,7 +1,6 @@
 .landingPicBox{
-  display: flex;
-  width:100%;
+  display: block;
+  overflow: clip;
   top: 0%;
-  border-top: 1px solid darkgray;
   padding-top: 1rem;
 }
