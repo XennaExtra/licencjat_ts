@@ -1,5 +1,6 @@
 import './component_css/navbar.scss';
 import logo from './component_elements/logo.png';
+import {Routes, Route} from 'react-router-dom'
 export function Navbar(){
     return(
         <>

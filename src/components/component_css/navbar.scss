@@ -17,6 +17,7 @@ header{
     left:0%;
     padding-left: 5rem;
     padding-bottom: 1rem;
+    margin-bottom:0;
   }
 
 li{
@@ -44,9 +45,9 @@ li:hover{
     display: flex;
     flex-direction: row;
     padding-left: 5rem;
-    width:50%;
-    float: left;
-    margin-left: auto;
+    padding-right: 5rem;
+    float: right;
     padding-bottom: 1rem;
+    margin-bottom: 0;
   }
 
