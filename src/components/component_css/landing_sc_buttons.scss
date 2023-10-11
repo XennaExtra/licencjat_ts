@@ -1,0 +1,48 @@
+.scMap{
+  font-weight: bold;
+  font-size: xx-large;
+  display: flex;
+  color: white;
+  width: 260px;
+  height: 260px;
+  border-radius: 15px;
+  background-color: teal;
+  margin-left: auto;
+  margin-right: auto;
+  transition-property: background-color;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+  margin-bottom: 0.875rem;
+  text-align: left;
+}
+.scParent{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  height: fit-content;
+  padding: 0.875rem;
+}
+.scMap:hover{
+  background-color: darkblue;
+}
+.scMapText{
+  padding-top: 1rem;
+}
+.cross{
+  background: red;
+  height: 100px;
+  position: relative;
+  width: 20px;
+  top:57%;
+  left: 73%;
+}
+.cross:after{
+  background: red;
+  content: "";
+  height: 20px;
+  left: -40px;
+  position: absolute;
+  top: 40px;
+  width: 100px;
+}
